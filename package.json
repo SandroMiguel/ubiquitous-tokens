@@ -1,37 +1,30 @@
 {
-    "name": "some-awesome-project",
-    "version": "1.2.0",
-    "description": "Project setup guidelines for my personal projects",
-    "main": "index.js",
+    "name": "ubiquitous-tokens",
+    "version": "0.1.0",
+    "description": "Centralized design tokens for consistent reuse across projects",
     "license": "MIT",
     "author": {
         "name": "Sandro Miguel Marques",
         "email": "sandromiguel@sandromiguel.com",
-        "url": "http://sandromiguel.com"
+        "url": "https://sandromiguel.com"
     },
     "keywords": [
-        "project",
-        "setup",
-        "guidelines",
-        "javascript"
+        "design-tokens",
+        "design-system",
+        "tokens",
+        "dtcg"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SandroMiguel/some-awesome-project.git"
+        "url": "git+https://github.com/SandroMiguel/ubiquitous-tokens.git"
     },
     "bugs": {
-        "url": "https://github.com/SandroMiguel/some-awesome-project/issues"
+        "url": "https://github.com/SandroMiguel/ubiquitous-tokens/issues"
     },
     "scripts": {
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "lint:format": "prettier --write \"./**/*.{js,jsx,json}\"",
-        "test": "echo \"no test specified\" && exit 0"
+        "prepare": "husky"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.8.1",
-        "@commitlint/config-conventional": "^19.8.1",
-        "eslint-config-cecilia": "^2.10.1",
         "husky": "^9.1.7"
     }
 }
