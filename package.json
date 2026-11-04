@@ -28,16 +28,9 @@
         "lint:format": "prettier --write \"./**/*.{js,jsx,json}\"",
         "test": "echo \"no test specified\" && exit 0"
     },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog",
-            "disableScopeLowerCase": true
-        }
-    },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
-        "cz-conventional-changelog": "^3.3.0",
         "eslint-config-cecilia": "^2.10.1",
         "husky": "^9.1.7"
     }
